@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    width: 50%;
+    width: 60%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ main{
 .para{
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    font-family: 'lexend deca';
+    font-family: 'Lexend Deca';
     font-weight: 400;
     margin-top: 25%;
     font-display: swap;
@@ -28,34 +28,35 @@ main{
 }
 
 .h2{
-    margin-top: 15%;
+    margin-top: 10%;
     color: hsl(0, 0%, 95%);
     font-size: 25px;
     font-family: 'Big Shoulders Display';
     font-weight: 700;
     font-display: swap;
     font-style: normal;
+    font-family: 'Big Shoulders Display';
 }
 .sedan{
     background-color: hsl(31, 77%, 52%);
     padding: 2em;
-    width: 65%;
-    height: 55vh;
+    width: 75%;
+    height: 60vh;
     border-radius: 10px 0px 0px 10px;
 }
 
 .suv{
     background-color: hsl(184, 100%, 22%);
     padding: 2em;
-    width: 65%;
-    height: 55vh;
+    width: 75%;
+    height: 60vh;
 }
 
 .luxury{
     background-color: hsl(179, 100%, 13%);
     padding: 2em;
-    width: 67%;
-    height: 55vh;
+    width: 78%;
+    height: 60vh;
     border-radius: 0px 10px 10px 0px;
 }
 
