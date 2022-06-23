@@ -10,11 +10,13 @@ body{
 
 main{
     width: 60%;
-    margin: auto;
+    margin: 100px auto;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    overflow: hidden;
 }
 
 .para{
@@ -55,12 +57,12 @@ main{
 .luxury{
     background-color: hsl(179, 100%, 13%);
     padding: 2em;
-    width: 78%;
+    width: 75%;
     height: 60vh;
     border-radius: 0px 10px 10px 0px;
 }
 
-.btn-se{
+.btn-se {
     display: inline-block;
     background-color: white;
     border-radius: 60px;
@@ -111,4 +113,40 @@ main{
     border-color: rgb(63, 15, 236);
 }
 
+.sedan button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
 
+.suv button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+
+.luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border: 2px solid white;
+}
+
+@media (min-width: 1500px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    main {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sedan p,
+    .suv p,
+    .luxury p {
+        height: 70px;
+        margin-bottom: 35px;
+    }
+}
